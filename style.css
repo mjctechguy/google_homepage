@@ -49,4 +49,45 @@ input[type=submit]:hover {
     text-align: left;
 }
 
+.header {
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    /* background: green; */
+}
+
+.header ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+.header input[type=button]{
+    float:right;
+    border: 5px solid #4583ee;
+    border-radius: 2px;
+    height: 30px;
+    width: 71px;
+    background: #4583ee;
+    color: white;
+    font-weight: 500;
+}
+
+.header li {
+    float: right;
+    margin: 7px 7px 7px 7px;
+}
+
+
+li.showonRight {
+    float:left;
+}
+
+.header li a {
+    display: block;
+    color:#222222;
+    text-decoration: none;
+}
 

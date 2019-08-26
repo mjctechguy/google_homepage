@@ -1,3 +1,119 @@
+body, td, a, p, .h {
+    font-family: arial,sans-serif;
+}
+
+
+.header {
+    
+    /* display: block; */
+    width: 100%;
+    height: 30px;
+    /* margin: 0 0 0 0; */
+    margin-top: 30px;
+
+    /* background: green; */
+}
+
+.header ul {
+    /* display: block; */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* .header li {
+    margin-left: 15px;
+} */
+
+
+.header input[type=button]{
+    display: block;
+    float:right;
+    border: 5px solid #4583ee;
+    border-radius: 2px;
+    height: 30px;
+    width: 71px;
+    background: #4583ee;
+    color: white;
+    font-weight: 500;
+    margin-top: -10px;
+    margin-right: 30px;
+}
+
+
+
+.header li.onRight {
+    float: right;
+    margin-right: 30px;
+    /* margin-right: 40px; */
+
+    /* margin-right: 30px; */
+}
+
+.header li.onLeft {
+    float: left;
+    margin-left: 15px;
+}
+
+.header li a {
+    display: block;
+    color:#222222;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+
+.footer {
+    position: fixed;
+    width: 100%;
+    height: 40px; 
+    /* top: 0; */
+    left: 0;
+    bottom: 0;
+    border-top: 1px solid #e4e4e4;
+    /* margin-left: 30px; */
+
+    /* background-color: green; */
+
+}
+
+.footer ul {
+    margin: 0;
+    padding: 0; 
+    list-style-type: none;
+}
+
+.footer li.onRight {
+    float: right;
+    padding-right: 27px;
+    line-height: 40px;
+    /* margin-right: 30px; */
+    /* margin-right: 40px; */
+
+    /* margin-right: 30px; */
+}
+
+
+.footer span {
+    padding-left: 27px;
+    line-height: 40px;
+    color: rgba(0,0,0,.54);
+}
+.footer li.onLeft {
+    float: left;
+    padding-left: 27px;
+    line-height: 40px;
+    /* margin-left: 15px; */
+}
+
+.footer li a {
+    display: block;
+    color: #5f6368;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+
 img {
     display: block;
     margin: 0% auto;
@@ -47,47 +163,5 @@ input[type=submit]:hover {
     border-radius: 35px;
     line-height: 34px;
     text-align: left;
-}
-
-.header {
-    width: 100%;
-    height: 30px;
-    margin: 0;
-    padding: 0;
-    /* background: green; */
-}
-
-.header ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
-
-.header input[type=button]{
-    float:right;
-    border: 5px solid #4583ee;
-    border-radius: 2px;
-    height: 30px;
-    width: 71px;
-    background: #4583ee;
-    color: white;
-    font-weight: 500;
-}
-
-.header li {
-    float: right;
-    margin: 7px 7px 7px 7px;
-}
-
-
-li.showonRight {
-    float:left;
-}
-
-.header li a {
-    display: block;
-    color:#222222;
-    text-decoration: none;
 }
 
